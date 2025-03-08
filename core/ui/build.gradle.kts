@@ -23,7 +23,7 @@ dependencies {
     api(libs.compose.material3)
     api(libs.google.material)
     api(libs.kotlinxSerializationJson)
-    
+
     api(libs.hilt.navigation.compose)
     kapt(libs.hilt.android.compiler)
     api(libs.core.splashscreen)

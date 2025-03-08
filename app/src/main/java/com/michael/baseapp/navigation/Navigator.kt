@@ -4,10 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.michael.common.ImmutableList
 import com.michael.home.HomeScreen
 import com.michael.home.HomeScreenDestination
-
 
 @Composable
 fun Navigator(navController: NavHostController) {

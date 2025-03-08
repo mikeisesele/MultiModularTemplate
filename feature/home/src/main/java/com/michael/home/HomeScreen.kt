@@ -5,12 +5,12 @@ import androidx.compose.runtime.Composable
 import com.michael.ui.components.CenteredColumn
 import kotlinx.serialization.Serializable
 
-@Serializable
-object HomeScreenDestination
-
 @Composable
 fun HomeScreen() {
     CenteredColumn {
         Text(text = "Home Screen")
     }
 }
+
+@Serializable
+object HomeScreenDestination
