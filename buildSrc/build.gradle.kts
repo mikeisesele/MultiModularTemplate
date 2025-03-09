@@ -9,6 +9,7 @@ plugins {
     `kotlin-dsl-precompiled-script-plugins`
     id("com.diffplug.spotless") version libs.versions.plugin.spotless.get() apply false
     id("org.jetbrains.kotlin.plugin.serialization") version libs.versions.kotlinSerializationPlugin.get() apply false
+    id("org.jetbrains.kotlin.plugin.compose") version libs.versions.kotlin.get()  apply false
 }
 
 repositories {
