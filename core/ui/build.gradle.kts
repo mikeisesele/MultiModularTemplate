@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.nb.benefitspro.core.ui"
+    namespace = "com.michael.core.ui"
     testFixtures {
         enable = true
     }

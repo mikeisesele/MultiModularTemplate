@@ -34,4 +34,6 @@ dependencies {
 
     providetestDependencies(libs)
     detektPlugins(libs.detekt.formatter)
+
+    implementation(libs.easylog)
 }

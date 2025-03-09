@@ -61,7 +61,6 @@ kompanion = "1.4.6"
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 
 # Test
-easylog = { module = "com.github.mikeisesele:easylog", version.ref = "easylogVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
@@ -142,9 +141,7 @@ androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android", vers
 
 kotlinxSerializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 
-#easylog = { module = "com.github.mikeisesele:easylog",  version.ref = "easylog" }
-#kompanion = { module = "com.github.mikeisesele:kompanion", version.ref = "kompanion" }
-
+easylog = { group = "com.github.mikeisesele", name = "easylog", version.ref = "easylog" }
 
 
 [plugins]
