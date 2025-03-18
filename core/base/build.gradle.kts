@@ -24,6 +24,7 @@ dependencies {
     api(libs.hilt.navigation.compose)
     api(libs.navcompose)
     api(libs.easylog)
+    api(libs.kompanion)
 
 
     implementation(libs.hilt.android)

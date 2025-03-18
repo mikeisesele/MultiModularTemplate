@@ -48,6 +48,7 @@ kotlinxSerializationJson = "1.7.1"
 kotlinComposePlugin = "2.0.0"
 appcompat = "1.7.0"
 easylog = "3.0.2"
+kompanionVersion = "1.4.6"
 
 [libraries]
 
@@ -125,6 +126,7 @@ kotlinxSerializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-se
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 easylog = { group = "com.github.mikeisesele", name = "easylog", version.ref = "easylog" }
+kompanion = { group = "com.github.mikeisesele", name = "Kompanion", version.ref = "kompanionVersion" }
 
 [plugins]
 hilt-plugin = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
